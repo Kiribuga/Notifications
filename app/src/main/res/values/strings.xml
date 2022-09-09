@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Notifications</string>
+    <string name="message">Message notification</string>
+    <string name="event">Event notification</string>
+    <string name="syncing">Syncing</string>
+    <string name="id_user">Id user</string>
+    <string name="name_user">Name user</string>
+    <string name="text_message">Text message</string>
+    <string name="send_message">Send message</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_event">Title event</string>
+    <string name="description">Description</string>
+    <string name="enter_uri_image">URI image (optional)</string>
+    <string name="send_info_event">Send info event</string>
+    <string name="synchronisation">Synchronisation</string>
+</resources>

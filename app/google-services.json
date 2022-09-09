@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "28165043249",
+    "project_id": "notifications-bka",
+    "storage_bucket": "notifications-bka.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28165043249:android:ffdcbb53b9851e53439110",
+        "android_client_info": {
+          "package_name": "com.example.notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28165043249-ld7fm6ghfe2lpq0rk5a3ljiflglcsc32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUIui4k77j1A-B7sFgXaIrNRf5_szR_Zc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28165043249-ld7fm6ghfe2lpq0rk5a3ljiflglcsc32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

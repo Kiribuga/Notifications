@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/fragmentMain">
+
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.example.notifications.ui.mainfr.FragmentMain"
+        android:label="FragmentMain"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/action_fragmentMain_to_eventFragment"
+            app:destination="@id/eventFragment" />
+        <action
+            android:id="@+id/action_fragmentMain_to_messageFragment"
+            app:destination="@id/messageFragment" />
+        <action
+            android:id="@+id/action_fragmentMain_to_syncingFragment"
+            app:destination="@id/syncingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/eventFragment"
+        android:name="com.example.notifications.ui.event.EventFragment"
+        android:label="EventFragment"
+        tools:layout="@layout/fragment_event" />
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="com.example.notifications.ui.message.MessageFragment"
+        android:label="MessageFragment"
+        tools:layout="@layout/fragment_message" />
+    <fragment
+        android:id="@+id/syncingFragment"
+        android:name="com.example.notifications.ui.syncing.SyncingFragment"
+        android:label="SyncingFragment"
+        tools:layout="@layout/fragment_syncing" />
+</navigation>
